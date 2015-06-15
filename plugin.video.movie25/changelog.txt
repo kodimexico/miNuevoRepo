@@ -1,0 +1,6 @@
+[B]Version 1.4.3[/B]
+
+- removed Mashups ability to break this app
+- removed Paypal and Twitter links
+- removed broken 3D Repository
+

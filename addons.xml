@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.program.Kali" name="Kali Wizard" version="1.0" provider-name="Kali">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">	Kali Wizard</summary>
+    <description lang="en">Easy Update Your Kodi Install</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.KodiFlix"
+       name="[COLOR green]KodiFlix[/COLOR] 3.1"
+	   version="3.1"
+       provider-name="KodiFlix">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>KodiFlix</summary>
+    <description lang="en">KodiFlix   [COLOR red]NUEVA GENERACION EN STREAMING[/COLOR]
+	 # En cooperacion con:[COLOR red]Killer[/COLOR], [COLOR gold]Wolf[/COLOR]  y  [COLOR green]Yulfiostv[/COLOR],
+	 # Les presentamos el proyecto KodiFlix, las mejor calidad en peliculas y series.
+	 # (Agradecemos a [COLOR cyan]Raúl[/COLOR], y [COLOR blue]Christian Deliz[/COLOR] por la colaboración)</description>
+    <disclaimer lang="es">El uso de este Add-on, es  bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Wolf-IPTV"
+       name="[COLOR red]Wolf-IPTV[/COLOR] 3.0"
+	   version="3.0"
+       provider-name="Derian Black">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+   <summary>[COLOR red]Wolf[/COLOR][COLOR blue]IPTV[/COLOR],  basado en LivetreamsPro by Shani  </summary>
+    <description lang="en">[COLOR red]Wolf[/COLOR][COLOR blue]IPTV[/COLOR], junto a [COLOR blue]STALLION[/COLOR]-[COLOR red]TV[/COLOR]
+	* llevando entretenimiento a tu hogar, variedad de canales y peliculas en todo genero
+	* VISITA NUESTRA PAGINA   https://www.facebook.com/groups/wolfiptv/</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Yulfiostv"
+       name="[B][COLOR cornflowerblue]  YULFIOS[/COLOR][COLOR lime]TV[/COLOR]1.3[/B]”
+       version="1.3"
+       provider-name="[COLOR cornflowerblue]YULFIOS[/COLOR][COLOR lime]TV[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> Yulfiostv entretenimiento y diversion sin Fin!!!</summary>
+    <description>YulfiosTv  el addon Latino para asegurar tu diversión, aquí encontraras lo que mejor en: deportes, noticias, telenovelas, series, películas, música y mas contenidos en espanol ,ingles y otros.
+Conócenos te encantara, si necesitas tutoriales para esta gama de entretenimiento visita nuestra página: https://www.facebook.com/groups/yulfiostv
+https://yulfiostv.wordpress.com </description>
+
+   <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.kodi-mexico" name="Kodi-Mexico official Repo" version="1.0.0" provider-name="KodiMexico">
+	<extension point="xbmc.addon.repository" name="Kodi-Mexico official Repo">
+		<info compressed="false">https://raw.github.com/kodimexico/miNuevoRepo/master/addons.xml</info>
+		<checksum>https://raw.github.com/kodimexico/miNuevoRepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/kodimexico/miNuevoRepo/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi-Mexico official Repo</summary>
+   		<description lang="en">Instala los Addons de Kodi Mexico.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

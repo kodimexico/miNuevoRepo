@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.KodiFlix"
+       name="[COLOR green]KodiFlix[/COLOR] 3.1"
+	   version="3.1"
+       provider-name="KodiFlix">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>KodiFlix</summary>
+    <description lang="en">KodiFlix   [COLOR red]NUEVA GENERACION EN STREAMING[/COLOR]
+	 # En cooperacion con:[COLOR red]Killer[/COLOR], [COLOR gold]Wolf[/COLOR]  y  [COLOR green]Yulfiostv[/COLOR],
+	 # Les presentamos el proyecto KodiFlix, las mejor calidad en peliculas y series. 
+	 # (Agradecemos a [COLOR cyan]Raúl[/COLOR], y [COLOR blue]Christian Deliz[/COLOR] por la colaboración)</description>
+    <disclaimer lang="es">El uso de este Add-on, es  bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

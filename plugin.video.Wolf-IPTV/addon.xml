@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Wolf-IPTV"
+       name="[COLOR red]Wolf-IPTV[/COLOR] 3.0"
+	   version="3.0"
+       provider-name="Derian Black">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+   <summary>[COLOR red]Wolf[/COLOR][COLOR blue]IPTV[/COLOR],  basado en LivetreamsPro by Shani  </summary>
+    <description lang="en">[COLOR red]Wolf[/COLOR][COLOR blue]IPTV[/COLOR], junto a [COLOR blue]STALLION[/COLOR]-[COLOR red]TV[/COLOR]
+	* llevando entretenimiento a tu hogar, variedad de canales y peliculas en todo genero
+	* VISITA NUESTRA PAGINA   https://www.facebook.com/groups/wolfiptv/</description>
+    <platform>all</platform>
+  </extension>
+</addon>
